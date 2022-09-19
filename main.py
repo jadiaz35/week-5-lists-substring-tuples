@@ -28,6 +28,13 @@ my_list.remove("ddaa")
 print(my_list)
 my_list.insert(1, "balls")
 print(my_list)
+
+my_list2 = ["fortnite", "Pubg","Apex", "Realm Royale"]
+#join the my_list with my_list2 in a new variable
+#called my_list3 and print it out
+my_list3 = my_list2 + my_list
+
+print(my_list3)
 # Add the element "motorcycle" to the following list of means of transportation:
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
@@ -48,30 +55,33 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+luckyFriends= luckyNumbers + friends
 ###### print the new list out
-#print(newList2)
+print(luckyFriends)
 ###### print out the first item in the list
-
+print(luckyFriends[0])
 ###### remove the last item of the new list
-
+luckyFriends.remove("lord tennyson")
 ###### print the new list out without the last item
-
+print(luckyFriends)
 ###### add three more items to the end of the list
-
+luckyFriends.append("banana")
+luckyFriends.append("bread")
+luckyFriends.append("apple")
 ###### print the last item in the new list
-
+print(luckyFriends[-1])
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+luckyFriends.insert(2, "cookie")
 ###### print the new list out
-
+print(luckyFriends)
 ##### reverse the list
-
+luckyFriends.reverse()
 ###### print the new list out
+print(luckyFriends)
 ###### print out the length of the new list
-
+print(len(luckyFriends))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
